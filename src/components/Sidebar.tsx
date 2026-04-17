@@ -30,7 +30,7 @@ export function Sidebar({ page, setPage, userName }: Props) {
           Handelbar<span className="dot">.</span>
         </span>
       </div>
-      <div className="brand-sub" style={{ marginTop: -20 }}>
+      <div className="brand-sub">
         Canteen · Stuttgart
       </div>
       <nav className="nav">
