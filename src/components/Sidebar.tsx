@@ -31,7 +31,7 @@ export function Sidebar({ page, setPage, userName }: Props) {
         </span>
       </div>
       <div className="brand-sub" style={{ marginTop: -20 }}>
-        Canteen · Berlin HQ
+        Canteen · Stuttgart
       </div>
       <nav className="nav">
         {items.map((it) => (
