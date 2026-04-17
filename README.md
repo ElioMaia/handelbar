@@ -70,3 +70,19 @@ Swap the header in `src/api.ts` → `request()` for the Okta JWT once that's wir
 npm run build    # outputs to dist/
 npm run preview  # preview the production build
 ```
+
+## Deploy to GitHub Pages (prototype mode)
+
+This repository includes [deploy-pages.yml](.github/workflows/deploy-pages.yml).
+
+Behavior on deploy:
+- Uses mocked API (`VITE_USE_MOCK=1`), so no backend is required.
+- Builds with base path `/handelbar/` for this repository name.
+
+Setup once in GitHub:
+1. Open **Settings → Pages**.
+2. Set source to **GitHub Actions**.
+3. Push to `main` (or run the workflow manually).
+
+The site will be published at:
+`https://<your-username>.github.io/handelbar/`
