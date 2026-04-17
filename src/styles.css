@@ -128,7 +128,7 @@ a { color: inherit; text-decoration: none; }
   margin-top: -10px;
 }
 @media (max-width: 900px) {
-  .brand-sub { margin-top: 0; }
+  .brand-sub { margin-top: -10px; }
 }
 
 .nav { display: flex; flex-direction: column; gap: 2px; }
